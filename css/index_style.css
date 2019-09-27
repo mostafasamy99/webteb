@@ -1,0 +1,882 @@
+body {
+    font-family: "Segoe UI","Helvetica Neue","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    box-sizing: border-box;
+    background-color: #e3ecf0;
+
+
+}
+
+/* upper nav */
+.upperNav {
+    border-bottom: 3px solid #00aff0;
+}
+
+.plusLogo img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+}
+
+.loginM a:hover span {
+    color: #fff;
+}
+
+.loginM span {
+    font-weight: 600;
+    padding: 5px;
+    color: #00aff0;
+}
+
+.loginM a:hover i {
+    color: #fff;
+}
+
+.loginM i {
+    color: #00aff0;
+}
+
+.loginM a {
+    padding: 7px 15px;
+}
+
+.loginM {
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.align1 {
+    display: inline;
+    margin-left: 5px;
+}
+
+.webteb {
+    width: 60px;
+    padding-top: 11px;
+}
+
+
+
+/*Bottom nav*/
+
+.bottmNav {
+    background-color: rgb(78, 125, 141);
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 11;
+    /* display: block; */
+
+}
+
+
+
+.navbar-nav li a i {
+    font-size: 25px;
+    color: #16c1f5;
+    padding-left: 5px;
+    transition: all 0.7s;
+    
+}
+
+.navbar-nav li {
+    padding: 12px 15px;
+    transition: all 0.4s;
+    
+}
+
+.navbar-nav li:hover {
+    background-color: #16c1f5;
+}
+
+.navbar-nav li:hover a i {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+
+.navbar-nav li a span {
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar {
+    padding: 0rem;
+    
+}
+@media (max-width: 767px) {
+    ul.navbar-nav {
+        transform: rotate(180deg);
+    }
+    ul.navbar-nav > li {
+        transform: rotate(-180deg);
+    }
+}
+
+/*Home*/
+
+
+
+/*1st mini home*/
+
+.dataInfo {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dataInfo p {
+    padding: 15px;
+}
+
+.dataInfo img {
+    padding: 10px;
+}
+
+/*2nd mini home*/
+.CategoryM {
+    font-size: 20px;
+    /*    font-weight: 600;*/
+}
+
+.manWomanChild a {
+    padding: 7px 25px;
+    font-size: 20px;
+
+}
+
+.manWomanChild {
+    color: white;
+    cursor: pointer;
+}
+
+.CategoryM {
+    color: black;
+}
+
+.SKO {
+    margin-left: 20%;
+}
+
+/* ourServices */
+
+.memberM img {
+    width: 100%;
+}
+
+.memberM {
+    position: relative;
+}
+
+.memberOverlay {
+    background-color: rgba(78, 125, 141, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.7s 0.2s;
+}
+
+.memberOverlay:hover {
+    opacity: 1;
+}
+
+.memberOverlay h3 {
+    color: #FF8C00;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5px;
+    position: relative;
+    top: -30%;
+    transition: all 0.5s;
+}
+
+.memberOverlay:hover h3 {
+    top: 0;
+}
+
+.memberOverlay a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 5px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.memberOverlay a:hover {
+    color: #00aff0;
+}
+
+.memberOverlay .a1m {
+    position: relative;
+    left: 100%;
+    transition: all 0.7s;
+}
+
+.memberOverlay:hover .a1m {
+    left: 0;
+}
+
+.memberOverlay .a2m {
+    position: relative;
+    left: -100%;
+    transition: all 0.7s;
+}
+
+.memberOverlay:hover .a2m {
+    left: 0;
+}
+
+
+
+
+/*tebwese7a*/
+.memberH a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.memberH a:hover {
+    color: #00aff0;
+}
+
+.memberH .a1m {
+    position: relative;
+    left: 100%;
+    font-size: 30px;
+    transition: all 0.7s;
+}
+
+.memberH:hover .a1m {
+    left: 0;
+}
+
+.memberH .a2m {
+    position: relative;
+    left: -100%;
+    transition: all 0.7s;
+}
+
+.memberH:hover .a2m {
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.start {
+    background-image: url(../images/addiction-antibiotic-aspirin-860378.jpg);
+    height: 230px;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlayMS {
+
+    background-color: rgba(0, 0, 150, 0.2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.klam h1 {
+    color: #fff;
+
+}
+
+.line {
+    width: 100%;
+    background-color: aqua;
+    height: 2px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 1.2rem;
+
+}
+
+.test {
+    width: 300px;
+}
+
+.MS {
+
+
+    font-size: 20px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+}
+
+.MMM {
+    width: auto;
+    font-size: 20px;
+    float: left;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 30px;
+    border: 2px solid tan;
+    color: white;
+}
+
+.left {
+    margin-left: -140px;
+    background-color: black;
+}
+
+.right {
+    margin-left: 90px;
+    background-color: black;
+}
+
+
+.caroDOC .docIMG img
+{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #5BF9F0;
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.drugIMG img
+{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.tofy {
+    
+    background-color: #f5f5f5;
+    width: auto;
+    border: 5px solid #fff;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+ 
+
+}
+/* rgba(116, 147, 194, 1) icon colors */
+
+.bgCommon
+{
+    
+    margin-top: 15px;
+    
+
+}
+.commonPercent1
+{
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    
+}
+.commonPercent1:hover
+{
+    transform: scale(1.2,1.2);
+}
+.img1m
+{
+    height: 200px;
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    border: 4px solid rgba(116, 147, 194, 1);
+}
+.img2m
+{
+    height: 40px;
+    width: 40px;
+    
+}
+
+
+.mard h1
+{
+    color: #F3F3F3;
+}
+
+
+
+
+
+
+
+
+.welcom {
+
+    background-color: #f5f5f5;
+    border: 10px solid #5BF9F0;
+    padding: 50px;
+    margin: 20px 0px;
+    border-radius: 20px;
+
+
+
+}
+.welcom img
+{
+    width: 90px;
+    height: 90px;
+    
+}
+.welcom p
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.welcom .nurse1
+{
+    width: 90px;
+    height: 90px;
+    border: 4px solid tomato;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mard {
+    background-image: url(../images/adult-doctor-face-disguise-2324837.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+.MMMM {
+    width: auto;
+    font-size: 20px;
+    float: left;
+    background-color: blueviolet;
+    padding: 30px;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid tan;
+}
+
+
+
+
+
+
+
+
+input[type='email']{
+text-align:right;
+}
+input[type='password']{
+text-align:right;
+}
+.display h5
+{
+    display: block;
+}
+.aw
+{
+  background-color: #DCDCDC;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+.centerSignIN
+{
+    margin: auto;
+    width: 50%;
+}
+input[type='text']{
+text-align:right;
+}
+.selectbox option
+{
+    display: inline;
+}
+
+
+
+
+.magdyJacop
+{
+    overflow: hidden;
+    transition: all 0.6s;
+    border-radius: 10px;
+    
+}
+
+.magdyJacop:hover
+{
+    transform: scale(1.1,1.1);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.magdyJacop a{
+    text-decoration-line: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zeze h2{
+    color: dodgerblue;
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+}
+
+.memberH img {
+	width: 100%;
+    height:300px;
+}
+
+
+
+
+
+
+
+.memberH {
+	position: relative;
+}
+
+
+
+
+
+.memberOverlayH {
+	background-color: rgba(78,125,141,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.7s 0.2s;
+    
+        
+}
+.memberOverlayH:hover
+{
+opacity: 1; 
+    
+}
+.memberOverlayH h3
+{
+    color: dimgray;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5px;
+    position: relative;
+    transition: all 0.5s ;
+    
+	
+}
+.memberOverlayH :hover h3{
+    top: 40%;
+
+    
+    }
+.hoho
+{
+    text-align: center;
+    width: 100%;
+
+}
+
+	
+.hoho p{
+    color: dodgerblue;
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lolo h2{
+    color:chocolate;
+    font-weight: 500;
+    font-size: 40px;
+    position: relative;
+}
+
+.hoda img {
+	width: 100%;
+    height:270px;
+    
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.hoda {
+   
+	position: relative;
+    margin: 10px;
+}
+
+
+
+
+
+.memberOverlayH {
+	background-color: rgba(33,15,181,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.7s 0.2s;
+    
+      cursor: pointer;  
+}
+.memberOverlayH:hover
+{
+opacity: 1; 
+    
+}
+.memberOverlayH h3
+{
+    color:chocolate;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5px;
+    position: relative;
+    transition: all 0.5s ;
+    
+	
+}
+.memberOverlayH :hover h3{
+    top: 40%;
+
+    
+    }
+
+
+
+.mos h3
+{
+	  color: dodgerblue;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 5px;
+    position: relative;
+    transition: all 0.5s;
+
+}
+
+.mos img:hover{
+    transform: scale(1.3,1.3);
+      cursor: pointer; 
+   
+}
+.mos
+{
+    text-align: center;
+}
+
+
+
+.foter
+{
+    background-color: #2D4E6D;
+}
+.contactDetails
+{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.contactDetails i
+{
+    padding-left: 5px;
+}
+.pagesfooter
+{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.loc1 , .loc2
+{
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+.pagesfooter i
+{
+    margin-left: 5px;
+}
+.aboutUsfooter
+{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+.lastPart
+{
+    background-color: #132739;
+}
+.lastL
+{
+    padding: 25px 0px;
+    
+}
+.lastL i 
+{
+    font-size: 22px;
+    padding :15px 5px 0px 5px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.lastL:hover .un 
+{
+    color: #007bff;
+}
+.lastL:hover .dou
+{
+    color: #17a2b8;
+}
+.lastL:hover .trois
+{
+    color: #dc3545;
+}
+.lastL:hover .quatre
+{
+    color: #343a40;
+}
+.zatona
+{
+    padding: 2px;
+}
+.zatona p
+{
+    padding: 2px;
+}
+.active{
+    display: block;
+}
+.menu{
+    display: none;
+}
+.menu.active{
+    display: block;
+}
+.testimage{
+    margin: 0px auto;
+}

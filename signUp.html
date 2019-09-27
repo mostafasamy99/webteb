@@ -1,0 +1,455 @@
+<html>
+
+<head>
+    <title>RouteMedicaL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
+</head>
+
+<body>
+
+
+
+
+  <!-- upper nav -->
+  <nav class="upperNav" id="upperNAV">
+    <div class="container">
+      <div class="row">
+        <div class="col-3 text-center">
+          <div class="plusLogo">
+            <img src="images/pharmacy.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="loginM">
+            <div class="align1">
+              <a href="signUp.html" class="btn btn-outline-primary" id="miniSIGNUP">
+                <span>تسجيل</span>
+                <i class="fas fa-user-plus fa-1x"></i>
+              </a>
+            </div>
+            <div class="align1">
+              <a href="signIN.html" class="btn btn-outline-primary" id="miniSIGNIN">
+                <span> دخول </span>
+                <i class="fas fa-users fa-1x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <img src="images/icon (1).png" class="webteb">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--    bottom nav-->
+
+  <nav class="navbar navbar-expand-lg navbar-light bottmNav" id="bottomNAV">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav m-auto">
+
+
+          <li class="nav-item">
+            <a  class="nav-link" href="adoywa.html" id="miniDrugs">
+              <span>الأدويــه</span>
+              <i class="fas fa-prescription-bottle-alt i4"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="amrad.html" id="miniDesases">
+              <span>الامراض</span>
+              <i class="fas fa-thermometer-quarter i3"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="se7awegamal.html" id="healthBeauty">
+              <span>الصحه و الجمال</span>
+              <i class="fas fa-apple-alt i2"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tebwese7a.html" id="medicalHealth">
+              <span>طب و صحه</span>
+              <i class="fas fa-star-of-life i1"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" id="miniHome">
+              <span>الصفحه الرئيسيه</span>
+              <i class="fas fa-home i5"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--    signup-->
+   
+  <section class="signup py-5" id="signUP">
+    <form>
+      
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <input type="text" class="form-control" id="lastName" placeholder="الاسم الاخير" required>
+            </div>
+            <div class="col-6">
+              <input type="text" class="form-control" id="firstName" placeholder="الاسم الاول" required>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-6 ">
+
+              <select class="form-control options" id="exampleFormControlSelect1">
+                <option>مصر</option>
+                <option>السعودية</option>
+                <option>الامارات</option>
+                <option>الكويت</option>
+                <option>قطر</option>
+                <option>الجزائر</option>
+                <option>تونس</option>
+                <option>المغرب</option>
+                <option>موريتانيا</option>
+                <option>السودان</option>
+                <option>فلسطين</option>
+                <option>اليمن</option>
+                <option>عمان</option>
+                <option>سلطنة عمان</option>
+                <option>العراق</option>
+                <option>البحرين</option>
+                <option>الصومال</option>
+
+
+
+
+              </select>
+
+            </div>
+            <div class="col-6 ">
+              <input type="email" class="form-control" id="userEmail" placeholder="البريد الالكترونى"
+                required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <input type="password" class="form-control" placeholder="تأكيد كلمة المرور" id="rePassword"
+                aria-describedby="passwordHelpBlock">
+
+            </div>
+            <div class="col-6">
+              <input type="password" class="form-control" placeholder="ادخل كلمة المرور" id="userPassword"
+                aria-describedby="passwordHelpBlock">
+              <small id="passwordHelpBlock" class="form-text text-muted text-right">
+                  يجب أن تتكون كلمة المرور من 8 إلى 20 حرفًا ، وأن تحتوي على أحرف وأرقام أو أحرف خاصة أو رموز تعبيرية.
+              </small>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-6">
+              <select class="form-control custom-select" id="exampleFormControlSelect1">
+                <optgroup label="اختر الجنس">
+
+                  <option value="male"> ذكر </option>
+                  <option value="female"> انثى </option>
+
+
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="col-6">
+
+              <div class="row">
+
+                <div class="col-md-3">
+                  <div><select id="inputState" class="form-control">
+
+
+
+
+
+
+                      <!--<option value="0">السنة</option>-->
+
+                      <option value="1950">1950</option>
+                      <option value="1951">1951</option>
+                      <option value="1952">1952</option>
+                      <option value="1953">1953</option>
+                      <option value="1954">1954</option>
+                      <option value="1955">1955</option>
+                      <option value="1956">1956</option>
+                      <option value="1957">1957</option>
+                      <option value="1958">1958</option>
+                      <option value="1959">1959</option>
+                      <option value="1960">1960</option>
+                      <option value="1961">1961</option>
+                      <option value="1962">1962</option>
+                      <option value="1963">1963</option>
+                      <option value="1964">1964</option>
+                      <option value="1965">1965</option>
+                      <option value="1966">1966</option>
+                      <option value="1967">1967</option>
+                      <option value="1968">1968</option>
+                      <option value="1969">1969</option>
+                      <option value="1970">1970</option>
+                      <option value="1971">1971</option>
+                      <option value="1972">1972</option>
+                      <option value="1973">1973</option>
+                      <option value="1974">1974</option>
+                      <option value="1975">1975</option>
+                      <option value="1976">1976</option>
+                      <option value="1977">1977</option>
+                      <option value="1978">1978</option>
+                      <option value="1979">1979</option>
+                      <option value="1980">1980</option>
+                      <option value="1981">1981</option>
+                      <option value="1982">1982</option>
+                      <option value="1983">1983</option>
+                      <option value="1984">1984</option>
+                      <option value="1985">1985</option>
+                      <option value="1986">1986</option>
+                      <option value="1987">1987</option>
+                      <option value="1988">1988</option>
+                      <option value="1989">1989</option>
+                      <option value="1990">1990</option>
+                      <option value="1991">1991</option>
+                      <option value="1992">1992</option>
+                      <option value="1993">1993</option>
+                      <option value="1994">1994</option>
+                      <option value="1995">1995</option>
+                      <option value="1996">1996</option>
+                      <option value="1997">1997</option>
+                      <option value="1998">1998</option>
+                      <option value="1999">1999</option>
+                      <option value="2000">2000</option>
+                      <option value="2001">2001</option>
+                      <option value="2002">2002</option>
+                      <option value="2003">2003</option>
+                      <option value="2004">2004</option>
+                      <option value="2005">2005</option>
+                      <option value="2006">2006</option>
+                      <option value="2007">2007</option>
+                      <option value="2008">2008</option>
+                      <option value="2009">2009</option>
+                      <option value="2010">2010</option>
+                      <option value="2011">2011</option>
+                      <option value="2012">2012</option>
+                      <option value="2013">2013</option>
+                      <option value="2014">2014</option>
+                      <option value="2015">2015</option>
+                      <option value="2016">2016</option>
+                      <option value="2017">2017</option>
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+
+
+                    </select>
+
+
+
+
+
+
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-3">
+                  <div><select id="inputState" class="form-control">
+
+                      <!--      <option value="0">الشهر</option>-->
+
+
+                      <option value="1">يناير</option>
+                      <option value="2">فبراير</option>
+                      <option value="3">مارس</option>
+                      <option value="4">ابريل</option>
+                      <option value="5">مايو</option>
+                      <option value="6">يونيو</option>
+                      <option value="7">يوليو</option>
+                      <option value="8">اغسطس</option>
+                      <option value="9">سبتمبر</option>
+                      <option value="10">اكتوبر</option>
+                      <option value="11">نوفمبر</option>
+                      <option value="12">ديسمبر</option>
+
+
+
+
+                    </select> </div>
+                  
+                </div>
+                <div class="col-md-3">
+
+                  <div><select id="daySelector" class="form-control">
+
+
+
+                      <!--<option value="0">يوم</option>-->
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+
+                    </select> </div>
+                  
+                </div>
+                <div class="col-md-3">
+                  <div>
+                    <h5>تاريخ الميلاد</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group float-right ">
+            <div class="form-check ">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2">
+              <label class="form-check-label" for="invalidCheck2">
+                اوافق على هذه الشروط
+              </label>
+            </div>
+          </div>
+   
+        </div>
+
+      
+      <div class="text-center"> <button type="submit" class="btn btn-primary  py-2 px-5 my-2 font-weight-bold" id="signInBtn">سجل</button>
+      </div>
+    </form>
+  </section>
+<footer class="foter">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="aboutUsfooter">
+              <div class="text-right">
+                <h3 class="text-info">:معلومات حولنا </h3>
+              </div>
+              <div>
+                <p class="text-white text-right"> المواد المنشورة في الموقع هي بمثابة معلومات فقط
+                   ولا يجوز اعتبارها
+                   استشارة طبية أو توصية علاجية. يجب استشارة الطبيب في حال لم تختفي الأعراض. </p>
+              </div>
+            </div>
+          </div>
+      <div class="col-md-4">
+        <div class="contactDetails text-right">
+          <div class="text-info det">
+            <h3>:تفاصيل الاتصال</h3>
+          </div>
+          <div class="text-white loc1">
+              عين شمس , مدينه نصر<i class="fas fa-map-marker-alt text-info"></i>
+          </div>
+          <div class="text-white loc2">
+              +٤٦ ۱۲۳ ٤٥٦ ٧٧٧ <i class="fas fa-phone text-info"></i>
+          </div>
+          <div class="text-white loc3">
+              hello@sitename.com<i class="fas fa-envelope text-info"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pagesfooter">
+          <div>
+            <h3 class="text-info text-right">:الصفحات</h3>
+          </div>
+          <div class="text-right text-white">
+            طب و صحه<i class="fas fa-angle-left text-info"></i>
+          </div>
+          <div class="text-right text-white">
+              الصحه و الجمال<i class="fas fa-angle-left text-info"></i>
+          </div>
+            <div class="text-right text-white">
+                الامراض<i class="fas fa-angle-left text-info"></i>
+          </div>
+            <div class="text-right text-white">
+                الادويه<i class="fas fa-angle-left text-info"></i>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<footer class="lastPart">
+  <div class="container">
+      <div class="col-md-12 text-center">
+        <span class="lastL">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook un"></i></a>
+      </span>
+      <span class="lastL">
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter  dou"></i></a>
+    </span>
+    <span class="lastL">
+      <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g  trois"></i></a>
+  </span>
+  <span class="lastL">
+    <a href="https://github.com" target="_blank"><i class="fab fa-github  quatre"></i></a>
+</span>
+   
+    </div>
+    <div class="col-md-12 text-center zatona">
+      <p class="text-white">حقوق الطبع محفوظة - ويب طب م.ض 2017-2011</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/new.js"></script>
+</body>
+
+</html>

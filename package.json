@@ -1,0 +1,27 @@
+{
+  "name": "testwebteb",
+  "version": "1.0.0",
+  "description": "This is test for webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafasamy99/testWEBTEB.git"
+  },
+  "author": "Mostafa samy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mostafasamy99/testWEBTEB/issues"
+  },
+  "homepage": "https://github.com/mostafasamy99/testWEBTEB#readme",
+  "dependencies": {
+    "webpack": "^4.41.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}

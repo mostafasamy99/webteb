@@ -1,0 +1,1565 @@
+<html>
+
+<head>
+    <title>RouteMedicaL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+
+<body>
+
+
+
+
+    <!-- upper nav -->
+    <nav class="upperNav" id="upperNAV">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <div class="plusLogo">
+                        <img src="images/pharmacy.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="loginM">
+                        <div class="align1">
+                            <a href="signUp.html" class="btn btn-outline-primary" id="miniSIGNUP">
+                                <span>تسجيل</span>
+                                <i class="fas fa-user-plus fa-1x"></i>
+                            </a>
+                        </div>
+                        <div class="align1">
+                            <a href="signIN.html" class="btn btn-outline-primary" id="miniSIGNIN">
+                                <span> دخول </span>
+                                <i class="fas fa-users fa-1x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/icon (1).png" class="webteb">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--    bottom nav-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bottmNav" id="bottomNAV">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav m-auto">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="adoywa.html" id="miniDrugs">
+                            <span>الأدويــه</span>
+                            <i class="fas fa-prescription-bottle-alt i4"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="amrad.html" id="miniDesases">
+                            <span>الامراض</span>
+                            <i class="fas fa-thermometer-quarter i3"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="se7awegamal.html" id="healthBeauty">
+                            <span>الصحه و الجمال</span>
+                            <i class="fas fa-apple-alt i2"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tebwese7a.html" id="medicalHealth">
+                            <span>طب و صحه</span>
+                            <i class="fas fa-star-of-life i1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" id="miniHome">
+                            <span>الصفحه الرئيسيه</span>
+                            <i class="fas fa-home i5"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--    elragel-->
+    <section class="elragel" id="ELRAGEL">
+
+
+        <div class="container">
+
+
+
+
+            <div class="col-12">
+
+
+                <div class="welcom text-center">
+
+                    <img src="images/doctorTomato.png" class="img-fluid my-3">
+                    <p class="text-center">أهلاً وسهلاً بكم في مشخص الاعراض الصحيّة للرجال. هنا يمكنكم تشخيص الاعراض التي تعانون
+                        منها وتحديد الحالات
+                        الصحية المحتملة لها بواسطة الاجابة على سلسلة من الاسئلة. لكن أولاً عليكم اختيار المنطقة حيث تظهر الاعراض
+                        التي تشكون منها في جسمكم
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="row ">
+
+                <div class="col-md-4 ">
+
+                    <div class="soraElragell">
+
+                        <img src="images/standing-up-man-.png" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="choose">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg999" href="#list-item-1" id="rasFUN" onclick="kalba('.choose1')"> الرأس والعنق</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg999" href="#list-item-2" id="ayonFUN" onclick="kalba('.choose2')">العيون</a>
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg999" href="#list-item-3" id="anefFUN" onclick="kalba('.choose3')">الأنف ,الأذن والحنجرة</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg999" href="#list-item-4" id="sedrFUN" onclick="kalba('.choose4')">الصدر والظهر</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg999" href="#list-item-5" id="zeraFUN" onclick="kalba('.choose5')"> الذراعين واليدين</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg999" href="#list-item-6" id="batnFUN" onclick="kalba('.choose6')">البطن والحوض</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg999" href="#list-item-6" id="saeqFUN" onclick="kalba('.choose7')">الساقين</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+
+
+
+                    <div class="choose1 menu " id="salah">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg40" href="#list-item-1" > تساقط الشعر عند الرجال</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg41" href="#list-item-2">الصداع</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg42" href="#list-item-3">الدوار عند الوقوف</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg43" href="#list-item-4">الم الرقبة</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg45" href="#list-item-5"> فقدان الشم والتذوق</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg46" href="#list-item-6">تورم الغدد في الرقبة</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg47" href="#list-item-6">الم الفك، اللثة او الاسنان</a>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="choose2 menu " id="Ayon">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg48" href="#list-item-1"> جفاف العين والفم</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg49" href="#list-item-2">افرازات العين</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg50" href="#list-item-3">الم العين</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="choose3 menu" id="anef">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg51" href="#list-item-1"> السعال والبرد</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg52" href="#list-item-2">جفاف الفم والعطش الزائد</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg53" href="#list-item-3">الم الاذن عند الكبار</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg54" href="#list-item-4">السعال المزمن</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg55" href="#list-item-5"> التهاب الحلق</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg56" href="#list-item-6">فقدان السمع المفاجئ</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg57" href="#list-item-6">صعوبة البلع</a>
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="choose4 menu" id="sader">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg58" href="#list-item-1"> الم الصدر</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg59" href="#list-item-2">خفقان القلب</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg60" href="#list-item-3">الم اسفل الظهر</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg61" href="#list-item-4">ضيق التنفس عند الكبار</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg62" href="#list-item-5"> الصفير مع التنفس عند الكبار</a>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="choose5 menu" id="zera3">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg63" href="#list-item-1"> الم المرفق</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg64" href="#list-item-2">الم اليد</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg65" href="#list-item-3">مشاكل الاظافر</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg66" href="#list-item-4">العامل الروماتويدي الايجابي</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg67" href="#list-item-5"> الم الكتف</a>
+
+                        </div>
+
+
+                    </div>
+                    <div class="choose6 menu" id="batn">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg68" href="#list-item-1">علاج ارتداد حمض المعدة </a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg69" href="#list-item-2">غازات الامعاء </a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg70" href="#list-item-3">فحص سرطان القولون</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg71" href="#list-item-4">الاسهال</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg72" href="#list-item-5"> الم مفصل الحوض</a>
+
+                        </div>
+
+
+                    </div>
+                    <div class="choose7 menu" id="regl">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg73" href="#list-item-1">الم القدم </a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg74" href="#list-item-2">النقرس </a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg75" href="#list-item-3"> الم الركبة</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg76" href="#list-item-4">تورم الركبة المزمن</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg77" href="#list-item-5"> الم الكاحل</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="modal fade bd-example-modal-lg40" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">: الأدويه</h3>
+
+                            <br>
+                            حبوب بانتوجار -
+                            <br>
+                            ألداكتون -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">:التشخيص</h3>
+                            <br>
+                            <p class="text-center">يمكن ان يتوقع معظم الرجال بعض التساقط في الشعر او تغير شكل الشعر بينما يتقدمون في
+                                العمر. يكون تساقط
+                                الشعر تدريجيا عادة، لكن يمكن ان يحدث احيانا بصورة مفاجئة، سريعة او غير طبيعية. يمكن ان يكون هذا النوع من
+                                تساقط الشعر علامة على مرض مسبب او مشكلة طبية احيانا.
+
+                                ربما يؤدي تساقط الشعر الى نقص غزارة الشعر، يسبب الصلع في منطقة او اكثر في فروة الراس..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade bd-example-modal-lg41" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right ">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الاسيرين-
+                            <br>
+                            الجونال-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>يحدث الصداع أو ألم الرأس نتيجة تمدد الأوعية الدموية بالمخ؛ والتي تضغط عندها على الأغشية الحساسة المحيطة
+                                بها، وفي حالة الأورام المخية يضغط الورم على الأغشية والأوعية الدموية المحيطة به داخل الجمجمة، ويؤدي هذا
+                                الضغط إلى تهيج الأعصاب، ثمّ الشعور بالصداع.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg42" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            هيستالوك-
+                            <br>
+                            هيستازين-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.ستخدم الناس مصطلح الدوار لوصف احاسيس مختلفة. هذا الدليل معد من اجل نوع واحد من الاحساس بالدوار. الشعور
+                                بالدوار عند الوقوف. الذي يتحسن عندما ترقد. سيتم توجيه سلسلة قصيرة من الاسئلة، التي ستقودك الى معلومات
+                                متعلقة باعراضك.
+
+                                قد يتفاوت الشعور بالدوار من الاحساس الغامض "بعدم صفاء الدماغ"، الى الاعراض القاسية بالشعور بالاغماء عند
+                                الوقوف.
+
+                                بشكل طبيعي عندما تقف ينخفض ضغط الدم لثوان قليلة، لكنه يرتفع بعد ذلك لضمان تدفق دم كاف الى الدماغ. حدوث
+                                الدوار عند التحرك من وضع الرقود الى وضع الجلوس او الوقوف، عادة يعني ان ضغط الدم لديك قد انخفض بشكل غير
+                                مناسب. يطلق الاطباء على هذا اسم انخفاض ضغط الدم الوضعي</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg43" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الخضوع لجلسات التدليك-
+
+                            <br>
+                            حقن الستيرويدات-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p> .من الممكن أن يكون الم في الصدر مع الم اسفل الرقبة له علاقة بمرض القلب والأزمات القلبية وقد يكون لسبب
+                                آخر ويتم التأكد من خلال فحص الطبيب، ولذلك عدة أعراض شائعة تكون مصاحبه </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg45" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            مزيلات الاحتقان-
+
+                            <br>
+                            بخاخ الأنف الستيروئيدي-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p> تختلف الأسباب وراء فقدان حاستي التذوق والشم، ومنها: تعرّض الرأس لإصابةٍ خطيرةٍ. التعرّض لمواد كيميائية
+                                ضارة. الإصابة ببعض الأمراض مثل ارتفاع ضغط الدم، ومشاكل في الغدة الدرقية، وأمراض الزكام والجيوب الأنفية
+                                وغيرها.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg46" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            خل التفاح-
+                            <br>
+                            تناول الثوم-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p> يشير لفظ "تورم الغدد" عادة الى تضخم العقد الليمفاوية. مع ذلك، فان العقد الليمفاوية ليست في الحقيقة
+                                غددا. بل هي تجمعات صغيرة من خلايا الدم البيضاء، توجد في مناطق متعددة من الجسم.
+
+                                من الطرق التي يستجيب بها جهاز المناعة في الجسم للعدوى والالتهاب، هي زيادة عدد خلايا الدم البيضاء بشكل
+                                كبير في العقد الليمفاوية مما يجعلها تتضخم. وغالبا ما يحدث تضخم العقد الليمفاوية بسبب عدوى، او حالة حميدة
+                                اخرى. وبشكل اقل شيوعا تتضخم العقد الليمفاوية ارتباطا بالسرطان.
+
+                                اجزاء الجسم التي يحس فيها الناس والاطباء العقد الليمفاوية، تشمل: الرقبة، والابط، واعلى الفخذ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg47" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الماء بالملح-
+                            <br>
+                            تيتانيم-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p> قد يعاني بعض الأشخاص من ألم الجانب الأيسر للأسنان قد يتعرض هؤلاء الأشخاص إلي ألم في الفك الأيسر من
+                                الفم وتتراوح شدة الألم علي حسب العوامل المختلفة وبجرد الحصول علي السبب وراء ذلك تتمكن من التشخيص المناسب
+                                لحالتك الصحية يمكن أن تشمل العلاجات المسكنات، الوصفات الطبيعية،، إلخ . لأن ألم الأسنان من أقسي الألم
+                                التي تتعامل معها وفي النهاية يجب الذهاب إلي طبيب الأسنان للحصول علي المشورة المناسبة لحالتك . يمكن أن
+                                يكون هذا الألم بسبب الحساسية من طعام معين تناولته، وجود تسوس في الأسنان، خراج الأسنان، تختلف الأسباب
+                                وبالطبع تختلف العلاجات التي يمكن أن تحصل عليها لحل هذه المشكلة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade bd-example-modal-lg48" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            زيت اللافندر-
+                            <br>
+                            زيت بذور الكتان-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p> عراض جفاف العين قد تظهر بسبب هبوب الرياح بجوار العين او البيئة ذات الهواء الجاف (مثل: التدفئة داخل
+                                المنزل)، التعرض للدخان او التراب. الجفاف ربما يكون من مضاعفات امراض العين الاخرى، مثل: امراض جفن العين
+                                وجحوظ العين (مثلما يحدث مع زيادة نشاط الغدة الدرقية). الجفاف المؤقت للفم ربما يصاحب العصبية، القلق
+                                والتنفس عبر الفم (كما يفعل العديد من الناس اثناء النوم). العديد من الادوية ايضا، يمكن ان تجعل الفم جافا
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg49" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            لوكسترا قطرة-
+                            <br>
+                            جنتاسين قطرة-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                فرازات العين التي يصاحبها تورم في اليدين، او الوجه، حكة او هرش، وخطوط في الجلد، تشير الى تفاعل حساسية
+                                شديد، يتطلب رعاية طبية فورية. وفقد الرؤية، او ضعف عضلات الوجه، او الم العين، هي اعراض خطيرة اخرى.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg50" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            أيزوبتو ماكسيترول قطرة-
+                            <br>
+                            ابيجين قطرة-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                يُعتبر وجع العين من الأعراض شائعة الحدوث، واخَتَبره مُعظم النّاس تقريباً، وقد يدلّ في بعض الأحيان على
+                                وجود مُشكلة خطيرة في العين. ويتمّ تقسيم وجع العين عادةً إلى قسمين: ألم العين الخارجيّ الذي يشعر به
+                                المريض على السّطح الخارجيّ للعين، وألم مِحجر العين، إذ يكون مصدر الألم داخليّ. ولكلّ من هذين القِسمَين
+                                أسبابه على النّحو الآتي
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg51" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            داي اند نايت-
+                            <br>
+                            كونجستال-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.
+                                يحدث السعال والبرد لدى معظم البالغين مرتين الى اربع مرات في السنة وهما اكثر تكررا لدى الاطفال. لست ملزما
+                                ان تراجع الطبيب اذا كنت تعاني من اعراض التهاب فيروسي دون مضاعفات في الجهاز التنفسي (الاذن، الانف، الجيوب
+                                الانفية، الحلق والصدر). من ناحية اخرى، يجب ان يقوم طبيبك بتقييمك اذا كنت تعاني من اعراض ترجح سبب اكثر
+                                خطورة، مثل: العدوى البكتيرية او اذا كانت اعراضك غير قابلة للعلاج بالعلاجات التي دون وصفة طبية او مع مرور
+                                الوقت. هدف هذا الدليل هو مراجعة اعراض السعال والبرد لديك والتعرف على انماط معينة من المرض، يوصى فيها
+                                بالتقييم من قبل الطبيب.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg52" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            بذور الشمر-
+                            <br>
+                            فلفل حريف-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                هذا الدليل سوف يركز على جفاف الفم المستمر طوال الوقت. فالجفاف المؤقت للفم ربما يصاحب العصبية، القلق
+                                والتنفس عبر الفم (كما يفعل العديد من الناس اثناء النوم). يمكن ان يؤدي تناول وجبة مملحة او حارة الى عطش
+                                مؤقت (لكن شديد).
+
+                                من الجدير بالذكر ايضا، ان العديد من الناس يشربون بشكل متكرر اكثر من العادة. يشعرون بالعطش اذا كانوا غير
+                                قادرين على الشرب كعادتهم، حتى ان لم يكن هناك مرض حقيقي يتسبب في العطش. يمكن ان يكون من الصعب القول ان
+                                هذا هو سبب العطش او جفاف الفم عند شخص، دون استبعاد الاحتمالات الاخرى بداية
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg53" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الزنجبيل-
+
+                            <br>
+                            الريحان-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                ربط الناس بين الم الاذن وعدوى الاذن عادة. رغم ذلك يمكن ان يحدث عدم الارتياح داخل او حول الاذن، بسبب
+                                مشاكل متعددة مختلفة. هذا الدليل سوف يغطي الاسباب الاكثر شيوعا لالم الاذن.
+
+                                بما ان عدوى الاذن هي سبب شائع لالم الاذن، دعنا نتناول هذا الاحتمال بداية.
+
+                                تحدث معظم انواع عدوى الاذن داخل الاذن. لا تكون هناك علامة على العدوى في الخارج عادة. يشير الاحمرار الالم
+                                والتورم، خارج الاذن الى وجود نوع مختلف من العدوى.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg54" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            المطريات-
+                            <br>
+                            طاردات البلغم-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                لسعال يحدث عادةً نتيجة التهابات في مجرى الجهاز التنفسي نتيجة وجود الافرازات او العدوى البكتيرية او
+                                التعرض للغازات التي تسبب تهيج الجهاز التنفسي مثل الدخان او الغبار بالاضافة الى الحساسية المفرطة ، قد
+                                يكون السعال ايضاً احد اعراض امراض اخرى مثل الربو و يصنف السعال الى قسمين ، القسم الاول هو السعال الرطب
+                                وهو الذي يشير الى البلغم و المخاط الزائد والموجود في الرئة اما السعال الجاف فإنه يشير الى التهابات
+                                الجهاز التنفسي ولكن بدون افرازات زائدة
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg55" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            اليانسون-
+                            <br>
+                            الليمون-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.
+
+
+                                وتكون العدوى الفيروسية شائعة جدا من بين انواع العدوى التي تسبب التهاب الحلق. ويمكن بشكل اقل شيوعا، ان
+                                تعاني من عدوى بكتيرية تسمى بكتريا الحلق .
+
+                                وليست العدوى هي السبب الوحيد لالتهاب الحلق. فالحساسيات المسببة لاحتقان الانف مع التنفس من الفم، وارتداد
+                                حمض المعدة، هما سببان اخران لالتهاب الحلق.
+
+                                ونادرا، ما يمكن ان يكون التهاب الحلق علامة على وجود مرض خطير، يتطلب اهتماما طبيا فوريا. ويمكن ان تؤدي
+                                اسباب معينة لالتهاب الحلق الى انسداد الممرات الهوائية، وتوقف التنفس اذا تركت دون علاج
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg56" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            العلاج بالأكسجين-
+
+
+                            <br>
+                            تناول فيتامين ب والكورتيزون-
+
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                يُعتبر ضعف السمع المفاجئ حالة طبية طارئة تستدعي العلاج فوراً، ويحدث فقدان السمع المفاجئ دون سابق إنذار،
+                                بحيث يفقد المصاب القدرة على سماع الأصوات المحيطة به أو يسمعها بشكل غير واضح في غضون دقائق أو حتى ثوانٍ
+                                معدودة، ويُمكن تعريفه على أنه ضعف سمع حسي عصبي بدرجة أكبر من ثلاثين ديسيبل على ثلاث ذبذبات متتالية، ومن
+                                الحالات التي تُصنّف على أنها ضعف سمع فجائي: الاستيقاظ مع وجود ضعف في السمع أو ضعف سمعي انحداري مستمر على
+                                مدى أيام أو انخفاض حاد ومفاجئ في القدرة السمعية
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg57" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الاهتمام بقوام الطعام-
+
+                            <br>
+                            الانتباه لوضعية الجسم عند الاكل-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.
+                                عام للمعدة)، ويكون جزء من عملية البلع إرادياً (أي أنك قادر على التحكم بهذا الجزء من عملية البلع) لكن من
+                                ناحية أخرى فإن معظم عملية البلع تكون لا إرادية.
+
+                                ويمكن أن تؤدي أي مشكلة في أي مرحلة من عملية البلع (بما يتضمن المضغ أو حركة الطعام للمنطقة الخلفية من
+                                الفم أو إلى المعدة) لألم عند البلع.
+                                يمكن أن تسبب مشاكل البلع أعراضاً مثل:
+
+                                ألم في الصدر.
+                                شعور بأن الطعام ملتصق في الحلق.
+                                ثقل أو ضغط في الرقبة أو القسم العلوي من الصدر عند تناول الطعام.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg58" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الجراحة الإصلاحية للشرايين-
+
+                            <br>
+                            الأدوية المضادة للقلق-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                تتضمن أمثلة أسباب ألم الصدر المتعلق بالقلب ما يلي:
+
+                                النوبة القلبية. تنجم النوبة القلبية عن انسداد في تدفق الدم إلى عضلة القلب، غالبًا بسبب جلطة دموية.
+                                الذبحة الصدرية. الذبحة الصدرية هو مصطلح يصف ألم الصدر الناتج عن ضعف تدفق الدم إلى القلب. غالبًا ما يتسبب
+                                ذلك في تراكم لويحات سميكة على الجدران الداخلية للشرايين التي تحمل الدم إلى القلب. تضيق هذه اللويحات
+                                الشرايين وتحد من إمداد القلب بالدم، خاصة في أثناء بذل المجهود.
+                                تسلخ الشريان الأبهر. يصيب هذا المرض المهدد للحياة الشريان الرئيسي الممتد من القلب (الشريان الأبهر). إذا
+                                انفصلت الطبقات الداخلية للأوعية الدموية، يُدفع الدم إلى ما بين الطبقات ويمكن أن يؤدي إلى تمزق الشريان
+                                الأبهر.
+                                التهاب التامور. يحدث هذا الالتهاب في الكيس المحيط بالقلب. عادة ما يتسبب ذلك في ألم حاد يزداد سوءًا عندما
+                                تتنفس هواء الشهيق أو عندما تستلقي.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg589" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            بروفيرا-
+
+                            <br>
+                            فيمارا-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+
+                                حدث أن تشعر العديد من النساء بألم في منطقة الثدي أو منطقة الإبط، فيُصبنَ بالقلق لخوفهن من أن يكون سبب
+                                الألم سرطان الثدي، إلّا أن الشعور بالوجع في منطقة الثدي لا يعدّ أحد أعراض سرطان الثدي. ويعدّ وجع
+                                الثدي من الآلام الشائعة عند النساء، واعتماداً على دراسة أجراها مركز طبي تابع لنظام سوتر الصّحي في
+                                كاليفورنيا فإن 50%-70% من النساء حول العالم يشعرن بوجع الثدي، وتختلف طبيعة ألم الثدي من امرأة إلى أخرى،
+                                وقد يأتي عند بعض النساء بشكل دوريّ أي مرتبط بالدورة الشهرية، أو غير دوريّ، وقد تشعر المرأة بألم في ثدي
+                                واحد وليس الاثنين معاً، وقد تختلف حدّة الألم من امرأة لأخرى، إذ يكون الوجع حادّاً عند امرأة وأقل حدةً
+                                عند أخرى، ومن الجدير بالذكر أنّ العديد من الأمور يمكنها أن تسبّب وجع الثدي
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="modal fade bd-example-modal-lg59" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            تقويم النظم القلبي-
+                            <br>
+                            مناورات العصب المبهم-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+
+                                ينبغي التنويه إلى أنّ خفقان القلب المفاجئ يحدث بشكل طبيعي في حالات التعرّض للضغوطات النفسية، وعند الشعور
+                                بالقلق والخوف، كما قد يحدث كرد فعل طبيعي من الجسم عند القيام بممارسة التمارين الرياضية، وفي هذه الحالات
+                                سرعان ما يعود معدل نبضات القلب المرتفع إلى الوضع الطبيعي بعد زوال العامل المؤثر أو المُحفّز لحدوثه، ولكن
+                                قد يحدث ارتفاع في معدّل نبض القلب بشكل دائم في بعض الحالات، مثل: حالات الإصابة باضطراب النظم القلبي أو
+                                كهربائية القلب، وهنا تجدر الإشارة إلى أنّه في بعض الحالات قد لا يمكن تحديد السبب الرئيسي الدقيق الذي
+                                أدّى إلى هذه المشكلة. ولكن من الأسباب الشائعة لحدوث مشكلة خفقان القلب ما يأتي الإصابة بفقر الدم. ممارسه
+                                التمارين الرياضية. التعرّض للإجهاد المفاجئ، مثل؛ الشعور بالخوف. حدوث ارتفاع أو انخفاض في ضغط الدم.
+                                التدخين. الإصابة بالحمّى. الإفراط في تناول المشروبات التي تحتوي على مادة الكافيين.
+
+
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg60" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            ممارسة التمارين الرياضيّة-
+
+
+                            <br>
+                            استخدام الكمّادات الحارّة والباردة-
+
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                وتمزّقها من أهم مسبّبات الألم الحادّ غير المزمن في أسفل الظهر، وبالرغم من أنّها لا تُحدِث أضراراً جسيمةً
+                                أو آلاماً مُزمنةً إلّا أنّ الألم الذي تُحدثه قد يكون حادّاً جداً. ومن الجدير بالذكر أنّ أعراض إجهاد
+                                وتمزّق العضلات مشابهةً لأعراض إجهاد وتمزّق الأربطة، وفي الحالتَين يكون العلاج متماثلاً، لذلك فلا يغدو
+                                التفريق بينهما أمراً مهماً. ومن أهمّ أسباب تمدّد وتمزّق العضلات والأربطة ما يلي:[٢] حمل الأوزان الثقيلة،
+                                أو التواء العمود الفقريّ (بالإنجليزية: Spine) خلال حمل الأشياء. الحركات المُفاجئة التي تتسبّب في إحداث
+                                ضغطٍ وإجهادٍ على منطقة أسفل الظهر، مثل السقوط. اتّخاذ وضعيّات غير سليمة للجسد لفتراتٍ طويلة. الإصابات
+                                الرياضيّة، وخاصّةً في الرياضة التي تحتاج لالتواء الجسد وغيرها.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg61" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            تمارين الاسترخاء-
+
+                            <br>
+                            التحكم في مستوى القلق-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                ولعلاج الضيق التنفّسي، كان لا بدّ من معرفة السبب الحقيقي والكامن وراء شعورك بالضيق، لتقوم بإزالته على
+                                الفور، حيث إنّه أمراً مهم جداً، لتتعرّف للأمراض المسببة لتشكيل الخطر على حياتك، مثل الجلطة القلبية
+                                والالتهابات الرئوية وما سبق ذكره، ومنها ما يمكن علاجه فوراً كوجود جسم غريب داخل المجاري التنفّسية، وبشكل
+                                عام يمثل ضيق التنفّس خطراً على الحياة؛ لذلك عليك العلاج الفوري له، فكثير من الأحيان يتطلب ذهابك
+                                للمستشفى. أسباب الضيق، هي كالتالي: زيادة في التقلصات العضلية داخل الحجاب الحاجز حيث تضغط على الرئتين.
+                                زيادة الانفعالات التي تسبب تلك التقلصات، ممّا يحدث ضيق في النفس. الإرهاق الجسدي المستمر.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg62" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            التأمل وتقنيات التنفّس-
+
+                            <br>
+                            الحفاظ علي الطاقة-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.
+
+                                الصفير هو صوت ناتج عن انسداد جزئي لمجرى الهواء في الممرات الهوائية لاحدى الرئتين او كلتيهما. والاشخاص
+                                الذين لديهم صفير يعانون ايضا من بعض الاحساس بصعوبة التنفس ايضا. ويمكن ان يكون صوت الصفير مرتفعا جدا، لكن
+                                مستوى ارتفاع صوت الصفير، لا يتناسب مع شدة انسداد مسار الهواء. فعندما يكون مسار الهواء ضيقا جدا، ربما لا
+                                يتم سماع صوت صفير اطلاقا.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg63" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الاربطة الطبية-
+                            <br>
+                            سيلفيكس-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+
+                                والتشخيصات التي بحثت هي من بين التشخيصات الاكثر شيوعا التي يمكن ان تفسر اعراضك، لكن القائمة ليست مكتملة
+                                تماما، وربما تكون هناك احتمالات اخرى. واضافة الى ذلك، ربما يوجد هناك اكثر من سبب واحد في الوقت نفسه.
+                                فمثلا، الشخص الذي يعاني من التهاب المفاصل الروماتويدي يمكن ان يعاني ايضا من اعتلال العصب الزندي ، لان
+                                تورم المرفق يضغط على التركيبات المحيطة.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg64" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            مضادات الالتهاب-
+                            <br>
+                            الكمادات-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                قد يحدث الم اليد لاسباب عديدة، منها: الكسور والعدوى التي هي من بين الاسباب الاكثر خطرا، بينما الالتواء
+                                والتهاب المفاصل من بين الاسباب الاكثر شيوعا.رغم ذلك، هناك اسباب نادرة لهذه الاعراض
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg65" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الإكثار من تناول الأطعمة الغنية بالحديد والكالسيوم وفيتامين ب-
+                            <br>
+                            استخدام البيض و الزبادي-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+
+                                يمكن ان تحدث مشاكل الاظافر لعدد من الاسباب: التهاب الجلد، الظفر الناشب والصدفية هي من بين الاسباب الاكثر
+                                شيوعا. لكن العدوى هي من بين الاسباب الاكثر خطورة. يجب تقييم اي مشكلة في الاظافر، لا تتحسن مع مرور الوقت
+                                بواسطة الطبيب
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg66" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الميثوتريكسات-
+                            <br>
+                            سولفاسالازين-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+
+                                .إن التهاب المفاصل الروماتويدي او الروماتويد المفصلي هو مرض التهابي يصيب أجهزة متعددة، ويؤثر بشكل رئيسي
+                                على المفاصل المسؤولة عن الحركة، ويمكن أن يكون له تأثيرات خطيرة خارج المفاصل.
+
+                                يتراوح انتشار الروماتويد المفصلي نحو 1 ٪ من سكان العالم ويصيب النساء أكثر ب- 2.5 مرة من الرجال. إن سبب
+                                التهاب الروماتويد المفصلي غير معروف؛ وهناك دور للعوامل الوراثية وتوجد علاقة مع المُسْتَضِدِّ للخلايا
+                                البيضاء ، ولكن لا يمكن، حتى الآن، تحديد الدور الدقيق للعوامل الوراثية بالتهاب الروماتويد المفصلي
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg67" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            العلاج الطّبيعيّ-
+
+                            <br>
+                            الحقن-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                تتعدّد أسباب ألم الكتف، فمنها ما ينجم عن مشكلة في المفصل نفسه، ومنها ما ينجم عن وجود مشكلة في الأربطة أو
+                                الأوتار أو العضلات المتعلِّقة به، فإن كان الألم ناجماً عن مشكلة في المفصل، فإنّه سيزداد سوءاً عند
+                                تحريكه؛ أمّا إن كان ناجماً عن مشكلة في الأربطة أو الأوتار أو العضلات، فإنّه لن يزداد سوءاً عند تحريكه،
+                                وتؤثّر بعض الأمراض التي تصيب أعضاء البطن والصّدر على صحّة الكتف، ومنها: أمراض المرارة، والقلب
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg68" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            أوراق الريحان-
+                            <br>
+                            خل التفاح-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.
+
+                                حدث مرض الارتجاع المعدي المريئي أو داء الجزر (ارتجاع المريء)، عندما يتدفق حمض المعدة نحو الأعلى باتجاه
+                                المريء. هذا الارتداد لحمض المعدة يسبب تهيج للبطانة الداخلية للمريء.
+
+                                يعاني العديد من الأفراد من ارتجاع الحمض بين الحين و الآخر. لكن يُعتبر الشخص أنه مصاباً بداء الجزر عندما
+                                يتكرر حدوث ارتداد الحمض مرتين في الأسبوع على الأقل.
+
+                                يتمكن معظم الأفراد من التحكم بالأعراض الناتجة عن داء الجزر، عن طريق تغيير بعض العادات الحياتية. و تناول
+                                الأدوية التي لا تحتاج لوصفة طبية. لكن في بعض الحالات الشديدة، يحتاج المريض لخيارات علاجية أكثر فعالية أو
+                                قد يتطلب الأمر للجوء إلى الجراحة.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg69" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            تناول مغليّ اليانسون الدافئ-
+                            <br>
+                            حبة البركة المطحونة-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                تتعدّد أسباب تكوّن الغازات بشكل مُفرط في البطن، فمنها ما هو نتيجة الأعمال اليوميّة التي يقوم بها الناس،
+                                ومنها ما يدلّ على بعض الأمراض الخطيرة، والآتي أهمّ أسباب غازات البطن ابتلاع كميّة من الهواء أثناء تناول
+                                الطّعام، فكميّة الهواء هذه تتحوّل إلى غازات لاحقاً. الإفراط في تناول الوجبات والأغذية، وعدم الاهتمام
+                                بالحِميات الغذائيّة. تناول المأكولات التي تحتوي على التّوابل الحارّة، والشطّة، والفلفل الأسود. تناول
+                                الوجبات الفاسدة، وهذه لمن يُحبّ ويُكثر من تناول الوجبات السريعة. شُرب الماء أثناء تناول وجبات الطّعام
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg70" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            تناول الكثير من الفواكه-
+                            <br>
+                            التقليل من الدهون-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                رحبا. دليلنا سوف يساعدك في اختيار الطريقة التي ترغب بها، من اجل الكشف عن سرطان القولون والمستقيم.
+
+                                هنا بعض الحقائق التي ستساعدك على فهم اهمية ان يتم الكشف عن سرطان القولون:
+
+                                سرطان القولون هو ثاني سبب مؤد للوفاة، من بين وفيات السرطان في الولايات المتحدة.
+                                ما يقدر بـ 147000 حالة جديدة، سيتم تشخيصها هذا العام. حوالي 57000 شخص سوف يموتون بسبب هذا المرض.
+                                حوالي 5% من الامريكيين يتوقع ان يصابوا بهذا المرض خلال فترة حياتهم. حيث يكون الرجال معرضون لخطر الاصابة
+                                اكثر بقليل من النساء.
+                                يبدا خطر الاصابة في سرطان القولون بالازدياد بعد سن الـ 40 عام. يزداد خطر الاصابة بصورة حادة بين سن 50
+                                الى 55 عاما، بعدها يتضاعف خطر الاصابة بسرطان القولون مع مرور كل عقد مقبل من العمر
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg71" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            اكل الكثير من التفاح-
+                            <br>
+                            ثمار نبات الخروب-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                الإسهال هو خروج براز رخو وسائل مصحوب غالبآ بتقلّصات بطنيّة، والإسهال من الممكن أن يصيب البالغين بمعدّل
+                                أربع مرات في السنة. يعدّ الإسهال أحد الأعراض لعدّة أمراض، ويوجد أنواع عديدة للإسهال منها ما هو ناتج عن
+                                التسمّم، ومنها ما هو ناتج عن الفيروسات. الإسهال النّاتج عن فيروس ينتقل بسهولة كبيرة من شخص لآخر
+                                بالاحتكاك المباشر أو من خلال استخدام أدوات للمريض، كما أنّ الماء والأطعمة الملوّثة بالبكتيريا أو
+                                الطفيليّات تساهم في انتشار إصابات الإسهال. أمّا الإسهال المزمن فهو يشير إلى حالة مرضيّة أكثر خطورة
+                                كالتهاب الأمعاء.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg72" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            ممارسة بعض التمارين الرياضية-
+                            <br>
+                            الزنجبيل-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+
+                                فصل الحوض أو الورك، هو عبارة عن أحد أقوى المفاصل الموجودة في جسم الإنسان، إلا أنه من المفاصل الحساسة
+                                وعرضةً للكسر أو التّفكك أو حدوث أي ضرر لنسيجهِ الرخو يمكن للعنق الضيق الموجود في مفصل الحوض أن ينكسر
+                                بسهولة وخاصةً عند الأشخاص الكبار في السن، هنالك العديد من الأسباب التي تسبّب بحدوث التهاب للحوض، منها
+                                التهاب المفاصل أو التهاب الكيس الزلالي. البعض يعاني من آلام في الركبة أو في العمود الفقري أو في عظام
+                                الفخدين، ظانين بأن أسباب الألم قد يتعلّق بالركبة أو بالظهر أو القدمين، لكن سرعان ما يكتشفون أن التهاب
+                                الحوض هو السبب، أو ما يسمى بمتلازمة الانحشار، وهي عبارة عن مرض يؤثّر على الجسم كافةً، ولكن يمكن أن تُصيب
+                                المنطقة الخارجيّة من الحوض أكثر من غيرها، تحدث هذه المتلازمة بسبب ظهور نتوء عظمي خلقي أو بسبب الإصابة
+                                بحادث معيّن أدى إلى تحرك رأس الفخد من داخل التجويف الحُقي، الأمر الذي يجعل النتوء يحتك بالتجويف، ممّا
+                                يؤدّي إلى تلف الغضروف والتهابهِ وتآكله
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg73" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            ممارسة الرياضة-
+                            <br>
+                            الاكل الصحي والخضراوات-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                قد يحدث الم القدم لاسباب عديدة، منها: الكسور والعدوى من بين الاسباب الاكثر خطرا، بينما الالتواء والتهاب
+                                المفاصل من بين الاسباب الاكثر شيوعا. في نهاية هذا الدليل سوف يتم تقديم روابط لمعلومات اكثر تفصيلا عن
+                                الاسباب الاكثر شيوعا لالم القدم، ورغم ذلك هناك اسباب نادرة لهذه الاعراض، سوف نذكرها هنا، وتحتاج الى
+                                تقييم اكثر تفصيلا عن الذي يقدمه هذا الدليل.
+
+                                وتكون الاعراض التحذيرية التي يمكن ان تشير الى وجود اصابة خطيرة لعظمة، او رباط هي الالم الشديد، او
+                                التورم، او الكدمات، او عدم القدرة على حمل الاشياء. وعندما توجد الحمى، تكون العدوى من المخاوف الكبرى. رغم
+                                ذلك، لا يكون لدى معظم الاشخاص الذين يعانون من الم القدم، سبب خطير. وفي الحقيقة، يعاني العديد من الناس من
+                                الالم بسبب الاحذية غير المناسبة، او الضيقة جدا، حاول تغيير حذائك الى حذاء ببطانة اكثر، يدعم ويمنح حيزا
+                                لقدميك، واستمر في القراءة لمعرفة المزيد عن اسباب الم القدم
+                                .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg74" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            مضادات الالتهاب اللاستيرويدية-
+                            <br>
+                            كولشيسن-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                النقرس هو حالة يحدث فيها التهاب لمفصل، او اكثر بسبب ترسب بلورات حمض اليوريك فيها. وحمض اليوريك هو منتج
+                                طبيعي، من الوظائف الطبيعية للجسم، ويزال من الجسم بواسطة الكلى.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg75" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الثلج-
+                            <br>
+                            التمارين الرياضية-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.
+
+                                وإليك بعض إصابات الركبة الأكثر شيوعاً :
+                                إصابة الرباط الصليبي الأمامي : وهو حدوث تمزق في الأربطة و يعد أحد الأربطة الأربعة التي تربط عظام الساق.
+                                و هذه الإصابة أكثر شيوعاً بين أولئك الذين يلعبون كرة السلة أو كرة القدم أو غيرها من الألعاب التي تتطلب
+                                تغير مفأجي في الإتجاهات .
+
+                                تمزق الغضروف المفصلي : يعد الغضروف المفصلي . ويعمل الغضروف علي إمتصاص الصدمات بين عظام الساق و عظام
+                                الفخذين . و عند حدوث لوي مفأجي في ركبتك يمكن إرتداء الغضروف المفصلي جاهز .
+
+                                إلتهاب الكيس الزلالي في الركبة : بعض الإصابات يمكن أن تؤدي إلي إلتهاب كيسي و الذي يحتوي علي سائل زلالي
+                                ينمو خارج مفصل الركبة .
+
+                                إلتهاب الوتر الرضفي ( يوجد بعظمة رأس الركبة ) : يحدث إلتهاب الأوتار تهيج في الأنسجة الليفية السميكة التي
+                                تربط العضلات بالعظام . ويحدث عند العدائين و المتزلجين و راكبي الدرجات والذين يشاركوا في الأنشطة الرياضية
+                                ، و يزاد إلتهاب الوتر مع القفز . و هو يعمل علي ربط عضلات الفخذ بعظام الساق .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg76" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            فقدان الوزن-
+                            <br>
+                            استخدام المراهم الطبية-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                أسباب ألم الركبة المزمن
+                                يشعر العديد من الناس بألم الركبة المؤقت نتيجة إصابة أو حادث أما ألم الركبة المزمن نادرًا ما يخف دون علاج
+                                وليس مرتبطًا دائما بحادث واحد ، إنما يكون عادةً نتيجة أسباب وحالات متعددة .
+
+                                الأمراض والحالات التي تسبب ألم الركبة المزمن
+                                ١- الفصال العظمي: وألم والتهاب وتدمير المفصل نتيجة انحلاله وتلفه .
+
+                                ٢- التهاب الأوتار: ألم في الجزء الأمامي من الركبة يسوء مع التسلق وصعود السلالم .
+
+                                ٣- الالتهاب الكيسي: التهاب ناتج عن الإفراط في استعمال الركبة أو إصابتها .
+
+                                ٤- تلين غضروف الرضفة: تلف الغضروف الموجود تحت الرضفة .
+
+                                ٥- النقرس: التهاب مفاصل ناتج عن تراكم حمض اليوريك .
+
+                                ٦- كيسة بيكر: تجمع السائل الزليلي وراء الركبة .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg77" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الإيبوبروفين-
+                            <br>
+                            إرتداء أحذية طبيه-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                مفصل االقدم هو إجتماع عظام الساق والقدم وهو المسؤول عن الحركة صعودا ونزولا للقدم. ويتكون الكاحل من مفصل
+                                الكاحل بالإضافة إلى المنطقة التشريحية المحيطة بها، بما في ذلك الطرف الأدنى من الساق وبداية الجزء المسطح
+                                من القدم. يسبب ألم المفصل العديد من الإصاباتأو عدم الراحة التي تؤثر على الأجزاء المكونه للكاحل. ويمكن أن
+                                تؤثر على الأفراد من جميع الفئات العمرية ولها مجموعة متنوعة من الأسباب قد تمنع الشخص من المشي. ألم مفصل
+                                القدم يمكن أن ينجم عن التهاب أو إصابة أي من العظام المكونه له ، بما في ذلك الغضاريف والأربطة والأوتار
+                                والعضلات
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="foter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="aboutUsfooter">
+                        <div class="text-right">
+                            <h3 class="text-info">:معلومات حولنا </h3>
+                        </div>
+                        <div>
+                            <p class="text-white text-right"> المواد المنشورة في الموقع هي بمثابة معلومات فقط
+                                ولا يجوز اعتبارها
+                                استشارة طبية أو توصية علاجية. يجب استشارة الطبيب في حال لم تختفي الأعراض. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contactDetails text-right">
+                        <div class="text-info det">
+                            <h3>:تفاصيل الاتصال</h3>
+                        </div>
+                        <div class="text-white loc1">
+                            عين شمس , مدينه نصر<i class="fas fa-map-marker-alt text-info"></i>
+                        </div>
+                        <div class="text-white loc2">
+                            +٤٦ ۱۲۳ ٤٥٦ ٧٧٧ <i class="fas fa-phone text-info"></i>
+                        </div>
+                        <div class="text-white loc3">
+                            hello@sitename.com<i class="fas fa-envelope text-info"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pagesfooter">
+                        <div>
+                            <h3 class="text-info text-right">:الصفحات</h3>
+                        </div>
+                        <div class="text-right text-white">
+                            طب و صحه<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                        <div class="text-right text-white">
+                            الصحه و الجمال<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                        <div class="text-right text-white">
+                            الامراض<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                        <div class="text-right text-white">
+                            الادويه<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <footer class="lastPart">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <span class="lastL">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook un"></i></a>
+                </span>
+                <span class="lastL">
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter  dou"></i></a>
+                </span>
+                <span class="lastL">
+                    <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g  trois"></i></a>
+                </span>
+                <span class="lastL">
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github  quatre"></i></a>
+                </span>
+
+            </div>
+            <div class="col-md-12 text-center zatona">
+                <p class="text-white">حقوق الطبع محفوظة - ويب طب م.ض 2017-2011</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/new.js"></script>
+</body>
+
+</html>

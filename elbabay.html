@@ -1,0 +1,919 @@
+<html>
+
+<head>
+    <title>RouteMedicaL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+
+<body>
+
+
+
+
+    <!-- upper nav -->
+    <nav class="upperNav" id="upperNAV">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <div class="plusLogo">
+                        <img src="images/pharmacy.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="loginM">
+                        <div class="align1">
+                            <a href="signUp.html" class="btn btn-outline-primary" id="miniSIGNUP">
+                                <span>تسجيل</span>
+                                <i class="fas fa-user-plus fa-1x"></i>
+                            </a>
+                        </div>
+                        <div class="align1">
+                            <a href="signIN.html" class="btn btn-outline-primary" id="miniSIGNIN">
+                                <span> دخول </span>
+                                <i class="fas fa-users fa-1x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/icon (1).png" class="webteb">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--    bottom nav-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bottmNav" id="bottomNAV">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav m-auto">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="adoywa.html" id="miniDrugs">
+                            <span>الأدويــه</span>
+                            <i class="fas fa-prescription-bottle-alt i4"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="amrad.html" id="miniDesases">
+                            <span>الامراض</span>
+                            <i class="fas fa-thermometer-quarter i3"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="se7awegamal.html" id="healthBeauty">
+                            <span>الصحه و الجمال</span>
+                            <i class="fas fa-apple-alt i2"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tebwese7a.html" id="medicalHealth">
+                            <span>طب و صحه</span>
+                            <i class="fas fa-star-of-life i1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" id="miniHome">
+                            <span>الصفحه الرئيسيه</span>
+                            <i class="fas fa-home i5"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--    elbaby-->
+    <section class="elragel" id="ELBABY">
+
+
+        <div class="container">
+
+
+
+
+            <div class="col-12">
+
+
+                <div class="welcom text-center">
+
+                    <img src="images/boy1.png" class="img-fluid my-3">
+                    <img src="images/girl1.png" class="img-fluid my-3">
+                    <p class="text-center">أهلاً وسهلاً بكم في مشخص الاعراض الصحيّة للأطفال. هنا يمكنكم تشخيص الاعراض التي تعانون
+                        منها وتحديد الحالات
+                        الصحية المحتملة لها بواسطة الاجابة على سلسلة من الاسئلة. لكن أولاً عليكم اختيار المنطقة حيث تظهر الاعراض
+                        التي تشكون منها في جسمكم
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="row ">
+
+                <div class="col-md-4 ">
+
+                    <div class="soraElragell">
+
+                        <img src="images/kids-couple.png" class="img-fluid">
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="choose">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg1010" href="#list-item-1" id="rasFUNBABY" onclick="kalba('.choose1')"> الرأس والعنق</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg1010" href="#list-item-2" id="ayonFUNBABY" onclick="kalba('.choose2')">العيون</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg1010" href="#list-item-3" id="anefFUNBABY" onclick="kalba('.choose3')">الأنف ,الأذن والحنجرة</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg1010" href="#list-item-4" id="sedrFUNBABY" onclick="kalba('.choose4')">الصدر والظهر</a>
+            
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg1010" href="#list-item-6" id="batnFUNBABY" onclick="kalba('.choose6')">البطن والحوض</a>
+                
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+
+
+
+                    <div class="choose1 menu" id="rasBABY">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg01" href="#list-item-1">اصابة الرأس عند الأطفال </a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg02" href="#list-item-2">الصداع عند الأطفال</a>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="choose2 menu " id="AyonBABY">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg03" href="#list-item-1"> العيون الحمراء عند الأطفال</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg04" href="#list-item-2">مشاكل البصر</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg05" href="#list-item-3">البكاء عند الرضع</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="choose3 menu " id="anefBABY">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg06" href="#list-item-1"> حساسية الأنف عند الأطفال</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg07" href="#list-item-2">ألم الأذن عند الرضع و الأطفال</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg08" href="#list-item-3">التهاب الحلق عند الأطفال</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="choose4 menu " id="saderBABY">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg09" href="#list-item-1"> علاج الربو عند الاطفال</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg010" href="#list-item-2">ضيق التنفس عند الاطفال والرضع</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg011" href="#list-item-3">السعال عند الاطفال والرضع</a>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="choose6 menu" id="batnBABY">
+
+
+                        <div id="list-example" class="list-group text-center">
+                            <a class="list-group-item list-group-item-action " data-toggle="modal" data-target=".bd-example-modal-lg014" href="#list-item-1">الم البطن عند الاطفال </a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg015" href="#list-item-2"> الامساك عند الاطفال</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="modal" data-target=".bd-example-modal-lg016" href="#list-item-3">الطفح الجلدي في منطقة الحفاضة</a>
+
+
+                        </div>
+
+
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="modal fade bd-example-modal-lg01" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">: الأدويه</h3>
+
+                            <br>
+                            فيتامين ب 2-
+
+                            <br>
+                            المغنيسوم-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">:التشخيص</h3>
+                            <br>
+                            <p class="text-center">
+
+                                يصاب الأطفال بأشكال مختلفة من الصداع، منها صداع الشقيقة والصداع التوتري. علاوة على ذلك، فإن الأطفال عرضة
+                                أيضا للإصابة بصداع يومي مزمن.
+
+                                يشار إلى أن الصداع ينجم أحيانا عن أسباب عديدة، منها الإصابة بالتهابات معينة والتعرض للضغوطات النفسية أو
+                                القلق والتعرض لإصابة بالرأس. لذلك، فيجب متابعة الطفل المصاب بالصداع واللجوء إلى الطبيب، وخصوصا إن كان
+                                الصداع يتكرر أو يزداد سوءا.
+
+                                أعراض صداع الأطفال:
+
+                                بالرغم من أن الأطفال يصابون بنفس أنواع الصداع التي تصيب البالغين، إلى أن الأعراض تختلف بين الفئتين إلى
+                                حد ما. فعلى سبيل المثال: يصيب صداع الشقيقة جهة واحدة فقط من الرأس لدى الغالبية العظمى من مرضاه البالغين،
+                                إلا أنه غالبا ما يصيب الأطفال من كلتا الجهتين. بالإضافة إلى ذلك، فإن العديد من الأطفال المصابين بالصداع
+                                لا تنطبق عليهم جميع المعايير اللازمة التي تمكن من تشخيصهم لمعرفة نوع الصداع الذي لديهم ومن ثمّ علاجهم
+                                بالشكل المناسب. ويذكر أن ذلك يكون أكثر صعوبة لدى الأطفال الصغار الذين لا يستطيعون التعبير عن ما يشعرون
+                                به من أعراض.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade bd-example-modal-lg02" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right ">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الثلج -
+                            <br>
+                            بيتادين -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                السقوط هو السبب الأكثر شيوعاً لإصابات الرأس تليها الحوادث ذات الصلة بالسير والسيارات، وعلاوة على ذلك لا
+                                تزال إساءة معاملة الأطفال سببا رئيسيا لصدمات الرأس لدى الأطفال دون سن الثانية.
+
+                                وقد تكون صدمة الرأس مسؤولة عن تلف الدماغ الأولي والثانوي، وإصابات الدماغ الأولية تنتج عن الأضرار
+                                الميكانيكية مباشرة في وقت الإصابة، في حين أن الإصابة الثانوية سببها تلف خلوي يظهر بعد ساعات أو أيام من
+                                الإصابة.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg03" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الكمادات الباردة -
+                            <br>
+                            ماء الورد -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                السبب المعتاد لتحول احدى العينين او كلتيهما الى اللون القرمزي او الاحمر، هو التهاب الملتحمة. التهاب
+                                الملتحمة، المعروف باسم "العين الحمراء" ايضا، هو التهاب (احمرار وتورم) الملتحمة، هو النسيج الذي يغطي بياض
+                                العين داخل جفن العين.
+
+                                السبب الاكثر شيوعا، هو عدوى من ميكروبات (بكتريا او فيروسات) تنتقل من شخص لاخر. رغم ذلك، فالتهاب
+                                الملتحمة، يمكن ان يكون ايضا بسبب تفاعل حساسية لشيء ما (مثل حبوب اللقاح)، بسبب ملامسة شيء مهيج (مثل
+                                الدخان في الهواء او الكلور في حمام السباحة) او بسبب مشكلات في العين نادرا.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg04" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            عدم التعرض للأتربة -
+
+                            <br>
+                            قطرات العين -
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                السبب الاكثر شيوعا، هو عدوى من ميكروبات (بكتريا او فيروسات) تنتقل من شخص لاخر. رغم ذلك، فالتهاب
+                                الملتحمة، يمكن ان يكون ايضا بسبب تفاعل حساسية لشيء ما (مثل حبوب اللقاح)، بسبب ملامسة شيء مهيج (مثل
+                                الدخان في الهواء او الكلور في حمام السباحة) او بسبب مشكلات في العين نادرا
+                                وايضا بسبب بعض الأتربة في الجو المنتشرة
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg05" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            تغير الحفاضة-
+
+                            <br>
+                            عدم الضوضاء -
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                الرضع جميعهم يبكون. وهم ربما يبكون لفترة تصل الى ساعات قليلة كل يوم. البكاء هو الطريقة التي يوصل بها
+                                الرضع مشاعرهم واحتياجاتهم. قد يبكي رضيعك ؛ لان لديه حفاضة مبتلة، او لانه جائع. او ربما هو يريدك ان
+                                تحضنيه فقط. قد تعرفي ما يريده رضيعك عن طريق صوت، نمط او مدة بكائه. رغم ذلك، يبدو احيانا انه يبكي بلا سبب
+                                البتة.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg06" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            مضادّات الهستامين -
+                            <br>
+                            كرومولين الصوديوم -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                حساسية الانف هي عبارة عن تفاعل بين الانف عند بعض الناس الذين لديهم حساسية، وبين مثيرات في الهواء، مثل:
+                                حبوب اللقاح والغبار والتراب. وهذه الحساسية شائعة عند الاطفال وتتم ملاحظتها غالبا عند الذين لديهم تاريخ
+                                مرضي في حالة اخرى متعلقة بالحساسية، مثل: الاكزيما او الربو الشعبي، او الذين لديهم افراد في العائلة
+                                يعانون من حساسيات. وعادة فان الاطفال الذين يعانون من حساسية الانف يعانون من حكة في العينين ايضا.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg07" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            زيت الزيتون -
+                            <br>
+                            تجنب الضوضاء -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p> السبب الأكثر شيوعا لوجع الأذن هو العدوى البكتيرية أو الفيروسية. على سبيل المثال، عندما يصاب طفلك
+                                بنزلات البرد، يمكن أن تنمو البكتيريا في الممرات التي تربط بين الأذن الوسطى والأنف.
+                                بمجرد أن تنسد هذه الممرات، تحدث العدوى والتهاب الأذن الوسطى. ثم يعمل تراكم السوائل داخل الأذن على الضغط
+                                على طبلة الأذن، الامر الذي يؤدي الى انتفاخها وإنسدادها وتصبح مؤلمة لطفلك.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade bd-example-modal-lg08" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            غرغرة الفم باستخدام الماء الدافئ والملح-
+                            <br>
+                            شرب السوائل الدافئة-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                قد يعاني طفلك من التهاب الحلق في اي وقت من العام. بالرغم من ان التهاب الحلق، يمكن ان يحدث عند الاطفال في
+                                اي سن، الا ان الطفل الاكبر من 3 سنوات، يكون اكثر تعرضا لالتهاب الحلق.
+
+                                الاسباب الاكثر شيوعا لالتهاب الحلق، تشمل:
+
+                                ,العدوى الفيروسية
+
+                                ,عدوى البكتيريا، خاصة بكتريا الحلق
+
+                                التهيج بسبب نزول المخاط خلف الانف، الهواء الجاف وتدخين التبغ
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg09" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            مسكّن لتوسيع القصبة الهوائية -
+                            <br>
+                            ضابط لضبط التنفس -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                الربو هو المرض المزمن الاكثر شيوعا عند الاطفال. واذا لم تتم السيطرة عليه جيدا، فان الربو يمكن ان يسبب
+                                صفيرا مع التنفس وسعالا وصعوبة في التنفس، مما يجعل من الصعب على الاطفال ان يبقوا في المدرسة ويتعلمون. وفي
+                                الحقيقة، فان الربو هو اكثر الاسباب شيوعا والتي تجعل الاطفال يتخلفون عن المدرسة. وهو قد يجعل من الصعب
+                                عليهم ان يقوموا بالتمرينات الرياضية وينامون .
+
+                                فمعظم الاطفال الذين يعانون من الربو يمكن ان يمارسوا حياة صحية وطبيعية. ومن اجل السيطرة على اعراضهم
+                                وجعلهم يشعرون افضل، من المهم ان يراجع الاطفال الذين يعانون من الربو، طبيبهم بانتظام، ولا سيما عند حدوث
+                                اي علامة لاي سوء في الاعراض.
+
+                                والاطفال ذوو الربو المسيطر عليه جيدا، يعانون من اعراض ضئيلة او لا يعانون من اعراض اثناء النهار او الليل،
+                                ولا يعانون من نوبات ربو او حد من انشطتهم، ولديهم ايام قليلة او منعدمة من التخلف عن المدرسة او العمل (او
+                                عمل الوالدين).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg010" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الضغط الهوائي-
+                            <br>
+                            مادة السيرفاكتانت-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                تحدث هذه المشكلة لدى الأطفال الذين لم يكتمل نمو الرئة لديهم, ويسببها نقص السيرفاكتانت وهي مادة زلقة في
+                                الرئتين مسؤولة عن إمدادهما بالهواء ومنع الحويصلات الهوائية من الانكماش نتيجة تفريغ الهواء منها, وتوجد
+                                هذه المادة في الرئة الطبيعية مكتملة النمو, كما أن هذا المرض قد يكون نتيجة لمشاكل جينية عند الأطفال. معظم
+                                حالات هذا المرض تكون في الأطفال الأقل عمرًا من 37 أسبوعًا وكلما كانت الرئتان أقل نموًا كلما زادت فرصة
+                                الإصابة بهذا المرض بعد الولادة, ونادرًا ما يصاب به الأطفال مكتملي النمو أو أكبر من 40 أسبوعًا. إضافة إلى
+                                التشوهات الخلقية في القفص الصدري أو التهاب القصبات الشعرية أو التهاب الرئة. هناك عوامل مهمة أخرى تسبب
+                                ضيق التنفس عند الرضع، أهمها: الولادات سريعة الحدوث أو الحمل المتعدد (توأم أو أكثر), مشاكل الحمل المختلفة
+                                التي قد تؤثر على سريان الدم إلى الجنين، أو أن تكون الأم مصابة بسكري الحمل.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg011" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            موسع للشعب الهوائية -
+                            <br>
+                            أدوية مذيبة للبلغم -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                السعال ما يُعرف أيضاً بالكحة أمراً مقلقاً حينما يُصيب الأطفال والرّضع، لكن طالما أنّ تنفس الطفل ورضاعته
+                                طبيعية ولم تتأثر، فليس هناك ما يدعو للقلق في العادة، وتنتج معظم حالات السعال لدى الأطفال الرضع عن التعرض
+                                لعدوى فيروسية؛ خاصة الفيروسات المسببة لنزلات البرد والإنفلونزا، ويستمرّ السعال المصاحب لنزلات البرد لمدة
+                                ثلاثة أسابيع أو أكثر، وعادة ما يتحسّن مع الوقت من تلقاء نفسه. وقد يُعاني الرضيع من نزلات البرد أكثر من
+                                سبع مرات خلال عامه الأول، وذلك لأنّ جهازهه المناعي في طور النمو، وما زال يتعلم كيفية محاربة الفيروسات
+                                الشائعة التي تُهاجمه، ومن الجدير بالذكر أنّ الرضيع قد يُصاب بالسعال أيضاً لأسباب أخرى غير العدوى كما في
+                                حال الإصابة بالربو . ومما ينبغي التنويه إليه أنّه في حال ملاحظة صعوبة تنفّس الرضيع نتيجة السُّعال، فإنّه
+                                ينبغي مراجعة الطبيب فوراً، وطلب الرعاية الصحية الطارئة
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+    <div class="modal fade bd-example-modal-lg012" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content MS">
+          <div class="row">
+            <div class="col-4 text-right">
+              <h3 class="text-right">:الادوية</h3>
+
+              <br>
+               بذور الشمر-
+              <br>
+               فلفل حريف-
+            </div>
+            <div class="col-8">
+
+              <h3 class="text-right">التشخيص</h3>
+              <br>
+              <p>
+                هذا الدليل سوف يركز على جفاف الفم المستمر طوال الوقت. فالجفاف المؤقت للفم ربما يصاحب العصبية، القلق
+                والتنفس عبر الفم (كما يفعل العديد من الناس اثناء النوم). يمكن ان يؤدي تناول وجبة مملحة او حارة الى عطش
+                مؤقت (لكن شديد).
+
+                من الجدير بالذكر ايضا، ان العديد من الناس يشربون بشكل متكرر اكثر من العادة. يشعرون بالعطش اذا كانوا غير
+                قادرين على الشرب كعادتهم، حتى ان لم يكن هناك مرض حقيقي يتسبب في العطش. يمكن ان يكون من الصعب القول ان
+                هذا هو سبب العطش او جفاف الفم عند شخص، دون استبعاد الاحتمالات الاخرى بداية
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+
+        <div class="modal fade bd-example-modal-lg013" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الزنجبيل-
+
+                            <br>
+                            الريحان-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                ربط الناس بين الم الاذن وعدوى الاذن عادة. رغم ذلك يمكن ان يحدث عدم الارتياح داخل او حول الاذن، بسبب
+                                مشاكل متعددة مختلفة. هذا الدليل سوف يغطي الاسباب الاكثر شيوعا لالم الاذن.
+
+                                بما ان عدوى الاذن هي سبب شائع لالم الاذن، دعنا نتناول هذا الاحتمال بداية.
+
+                                تحدث معظم انواع عدوى الاذن داخل الاذن. لا تكون هناك علامة على العدوى في الخارج عادة. يشير الاحمرار الالم
+                                والتورم، خارج الاذن الى وجود نوع مختلف من العدوى.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg014" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الكراوية -
+                            <br>
+                            نبات الكمون -
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                نظرا لشيوع ظاهرة ألم البطن الراجع دون سبب عضوي، فإن التوجه التشخيصي العام هو، في الغالب، محافظ يشمل
+                                اختبارات دمٍ روتينية: معادلة خلايا الدم، سرعة تنقل كريات الدم الحمراء ، اختبارات للداء البطني ، اختبارات
+                                بول وبراز، فحص البطن بالموجات فوق الصوتية وكذلك محاولة الامتناع عن تقديم الحليب ومنتجاته لمدة أسبوعين أو
+                                ثلاثة. في حال كان وصف الألم نموذجيا لآلام البطن الوظيفية، دون وجود "أعلامٍ حمراء" ومع نتائج سليمة
+                                للاختبارات المذكورة أعلاه، عندئذ يمكن الاكتفاء بذلك وطمأنة العائلة.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg015" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الفركتوز -
+                            <br>
+                            البقوليات-
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                يعاني العديد من الاطفال من الامساك، التبرز الصعب او المؤلم. ربما يعاني طفلكم من الامساك ، بسبب مشاكل
+                                التدريب على استخدام دورة المياه، او القلق المرتبط باستخدام دورة المياه. او ربما هو لا يحصل على كميات
+                                كافية من الالياف، او السوائل في طعامه، او ربما لا يقوم بتمارين رياضية كافية.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg016" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الأدوية ضد الحك ومراهم الألوفيرا -
+
+
+                            <br>
+                            مضادات حيوية عن طريق الفم -
+
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+
+                                الطفح الجلدي في منطقة الحفاضة ، او تهيج الجلد في منطقة الحفاضة، هو من اكثر المشاكل شيوعا عند حديثي
+                                الولادة والرضع. وسوف يعاني ثلثا الاطفال تقريبا، من طفح الجلد في منطقة الحفاضة في وقت ما، ويعاني القليل
+                                من الرضع منه في اوقات عديدة. وتختفي معظم حالات طفح الجلد في منطقة الحفاضة، مع العلاج البسيط، مثل: تغيير
+                                الحفاضة المتكرر، لكن بعضها يحتاج الى علاج خاص
+                                إن الطفح الجلدي عبارة عن منطقة في الجلد مصابة بالالتهاب والتهيج.
+
+                                يتسم الطفح بالاحمرار، الرغبة في الحك، تورم معين وآفات جلدية مميزة، عادةً، تكون منطقة الطفح الجلدي دافئة
+                                وحساسة..
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg017" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الاهتمام بقوام الطعام-
+
+                            <br>
+                            الانتباه لوضعية الجسم عند الاكل-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>.
+                                عام للمعدة)، ويكون جزء من عملية البلع إرادياً (أي أنك قادر على التحكم بهذا الجزء من عملية البلع) لكن من
+                                ناحية أخرى فإن معظم عملية البلع تكون لا إرادية.
+
+                                ويمكن أن تؤدي أي مشكلة في أي مرحلة من عملية البلع (بما يتضمن المضغ أو حركة الطعام للمنطقة الخلفية من
+                                الفم أو إلى المعدة) لألم عند البلع.
+                                يمكن أن تسبب مشاكل البلع أعراضاً مثل:
+
+                                ألم في الصدر.
+                                شعور بأن الطعام ملتصق في الحلق.
+                                ثقل أو ضغط في الرقبة أو القسم العلوي من الصدر عند تناول الطعام.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg018" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg ">
+                <div class="modal-content MS">
+                    <div class="row">
+                        <div class="col-4 text-right">
+                            <h3 class="text-right">:الادوية</h3>
+
+                            <br>
+                            الجراحة الإصلاحية للشرايين-
+
+                            <br>
+                            الأدوية المضادة للقلق-
+
+                        </div>
+                        <div class="col-8">
+
+                            <h3 class="text-right">التشخيص</h3>
+                            <br>
+                            <p>
+                                تتضمن أمثلة أسباب ألم الصدر المتعلق بالقلب ما يلي:
+
+                                النوبة القلبية. تنجم النوبة القلبية عن انسداد في تدفق الدم إلى عضلة القلب، غالبًا بسبب جلطة دموية.
+                                الذبحة الصدرية. الذبحة الصدرية هو مصطلح يصف ألم الصدر الناتج عن ضعف تدفق الدم إلى القلب. غالبًا ما يتسبب
+                                ذلك في تراكم لويحات سميكة على الجدران الداخلية للشرايين التي تحمل الدم إلى القلب. تضيق هذه اللويحات
+                                الشرايين وتحد من إمداد القلب بالدم، خاصة في أثناء بذل المجهود.
+                                تسلخ الشريان الأبهر. يصيب هذا المرض المهدد للحياة الشريان الرئيسي الممتد من القلب (الشريان الأبهر). إذا
+                                انفصلت الطبقات الداخلية للأوعية الدموية، يُدفع الدم إلى ما بين الطبقات ويمكن أن يؤدي إلى تمزق الشريان
+                                الأبهر.
+                                التهاب التامور. يحدث هذا الالتهاب في الكيس المحيط بالقلب. عادة ما يتسبب ذلك في ألم حاد يزداد سوءًا عندما
+                                تتنفس هواء الشهيق أو عندما تستلقي.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="foter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="aboutUsfooter">
+                        <div class="text-right">
+                            <h3 class="text-info">:معلومات حولنا </h3>
+                        </div>
+                        <div>
+                            <p class="text-white text-right"> المواد المنشورة في الموقع هي بمثابة معلومات فقط
+                                ولا يجوز اعتبارها
+                                استشارة طبية أو توصية علاجية. يجب استشارة الطبيب في حال لم تختفي الأعراض. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contactDetails text-right">
+                        <div class="text-info det">
+                            <h3>:تفاصيل الاتصال</h3>
+                        </div>
+                        <div class="text-white loc1">
+                            عين شمس , مدينه نصر<i class="fas fa-map-marker-alt text-info"></i>
+                        </div>
+                        <div class="text-white loc2">
+                            +٤٦ ۱۲۳ ٤٥٦ ٧٧٧ <i class="fas fa-phone text-info"></i>
+                        </div>
+                        <div class="text-white loc3">
+                            hello@sitename.com<i class="fas fa-envelope text-info"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pagesfooter">
+                        <div>
+                            <h3 class="text-info text-right">:الصفحات</h3>
+                        </div>
+                        <div class="text-right text-white">
+                            طب و صحه<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                        <div class="text-right text-white">
+                            الصحه و الجمال<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                        <div class="text-right text-white">
+                            الامراض<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                        <div class="text-right text-white">
+                            الادويه<i class="fas fa-angle-left text-info"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <footer class="lastPart">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <span class="lastL">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook un"></i></a>
+                </span>
+                <span class="lastL">
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter  dou"></i></a>
+                </span>
+                <span class="lastL">
+                    <a href="https://www.google.com" target="_blank"><i class="fab fa-google-plus-g  trois"></i></a>
+                </span>
+                <span class="lastL">
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github  quatre"></i></a>
+                </span>
+
+            </div>
+            <div class="col-md-12 text-center zatona">
+                <p class="text-white">حقوق الطبع محفوظة - ويب طب م.ض 2017-2011</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/new.js"></script>
+</body>
+
+</html>
